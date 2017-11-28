@@ -11,4 +11,4 @@ newID = 1000000000 + oldID;
 ageIsValid = Number.isInteger(currentAge);
 randomNumber = Math.random(0,20);
 randomInteger = Math.floor(randomNumber);
-randomUserID = Number.isInteger(randomUserID);
+randomUserID = Number.isInteger(randomUserID) + 1000000001;
