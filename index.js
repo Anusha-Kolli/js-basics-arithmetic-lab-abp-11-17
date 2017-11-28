@@ -12,4 +12,3 @@ ageIsValid = Number.isInteger(currentAge);
 randomNumber = Math.random(0,20);
 randomInteger = Math.floor(randomNumber);
 randomUserID =
-randomNumber * 1000000020 + 1000000001;
