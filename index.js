@@ -11,7 +11,5 @@ newID = 1000000000 + oldID;
 ageIsValid = Number.isInteger(currentAge);
 randomNumber = Math.random(0,20);
 randomInteger = Math.floor(randomNumber);
-function randomUserID(){
-  randomNumber = Math.floor(Math.random() * 1000000020) + 1000000001;
-  return randomNumber;
-}
+randomUserID =
+  randomNumber[Math.floor(Math.random() * 1000000020) + 1000000001];
