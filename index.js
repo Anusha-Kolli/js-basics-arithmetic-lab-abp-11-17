@@ -12,5 +12,6 @@ ageIsValid = Number.isInteger(currentAge);
 randomNumber = Math.random(0,20);
 randomInteger = Math.floor(randomNumber);
 function randomUserID(){
-  Math.floor(Math.random() * 1000000020) + 1000000001;
+  randomNumber = Math.floor(Math.random() * 1000000020) + 1000000001;
+  return randomNumber;
 }
